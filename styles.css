@@ -1,0 +1,91 @@
+html{
+    background-image:
+    linear-gradient(to bottom ,rgba(0, 0, 0, 0.89), rgba(0, 0, 0, 0.247), rgba(0, 0, 0, 0.884) ) 
+    ,url(./img/TH-en-20241202-TRIFECTA-perspective_56063847-3f4b-4642-9b95-62a49d6a00a5_large.jpg);
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.5vh;
+}
+header{
+    display:flex;
+    justify-content: space-between;
+    height: 10vh;
+}
+header img{
+    height: 150px;
+    margin: -40px 10vw;
+}
+.top{
+    margin: 10px 10vw 0 0;
+}
+.top select{
+    background-color: black;
+    color: white;
+    padding:7px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.top button{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    padding: 7px 15px;
+    border: none;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.top button:hover{
+    background-color: rgb(179, 3, 3);
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+main *{
+    margin:10px auto;
+    text-align: center;
+}
+main p{
+    font-size: 20px;
+}
+input[type=email]{
+    background-color: rgba(0, 0, 0, 0.288);
+    padding: 12px 10px;
+    width: 250px;
+    border: 1px solid rgba(156, 156, 156, 0.37);
+    border-radius: 5px;
+    color: white;
+    text-align: left;
+}
+form input::placeholder{
+    color: rgba(255, 255, 255, 0.788);
+    text-align: left;
+    font-size: 16px;
+}
+form button{
+    background-color: red;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 3px;
+    border:none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+form div {
+    text-align: center;
+}
+form p{
+    font-size: 17px;
+}
+form button:hover{
+    background-color: rgb(179, 3, 3);
+}
